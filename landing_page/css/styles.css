@@ -1,0 +1,335 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-italic - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/roboto-v20-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v20-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/roboto-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v20-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/roboto-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500italic - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/roboto-v20-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v20-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700italic - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/roboto-v20-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v20-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #000000;
+}
+
+/* Header styles start */
+
+.wrapper {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #007765;
+  width: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__item {
+  margin-right: 8px;
+  list-style-type: none;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__link {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header__link:hover, .header__link:focus, .header__link:active {
+  opacity: .75;
+}
+
+/* Header styles end */
+
+/* Intro styles start */
+
+.main {
+    background-color: #EEEEEE;
+}
+
+.intro {
+  height: 403px;
+  width: 100%;
+  background: url(../img/svg/intro-bg.svg) no-repeat center;
+  background-size:  auto 665px;
+}
+
+.problem__container-text {
+  height: 100%;
+}
+
+.h1__intro-text {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 72px;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 403px;
+}
+
+.h1__problem-tag {
+  margin-top: 48;
+  margin-bottom: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  /* identical to box height */
+  text-align: center;
+  color: #007765;
+}
+
+.problem__text {
+  width: 1110px;
+
+  margin-top: 16;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  text-align: left;
+}
+
+
+/* intro styles end */
+
+/* midle styles start */
+
+.midle {
+  height: 483px;
+  width: 100%;
+  background: url(../img/svg/midle-bg.svg) no-repeat center;
+  background-size:  auto 483px;
+}
+
+.midle__container-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+.h2__midle-text {
+  width: 893px;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+/* midle styles end */
+
+/* introducing styles start */
+.introducing {
+margin-top:-50px;
+  padding: 0;
+  height: 664px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.h1__introducing-tag {
+  padding-top: 48px;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  /* identical to box height */
+  text-align: center;
+  color: #007765;
+}
+
+.introducing__container-text {
+  height: 100%;
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.introducing_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.introducing__container {
+  width: 1110px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-center;
+  justify-content: space-between;
+}
+
+.introducing__img {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  vertical-align: center;
+}
+
+.introducing__p {
+  width: 930px;
+}
+
+.introducing_text {
+  padding: 0;
+}
+.introducing_img {
+  align-items: center;
+  vertical-align: center;
+}
+
+/* introducing styles end */
+
+/* members styles start */
+.h1__members-tag{
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  /* identical to box height */
+  text-align: center;
+  color: #007765;
+}
+
+.members__container {
+  padding-top: 20px;
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.member {
+  text-align: center;
+  flex-basis: 33%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #007765;
+}
+
+.member-role {
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* members styles end */
+.footer {
+  background-color: #333333;
+  width: 100%;
+  height: 176px;
+}
+
+.footer__text {
+  margin: 0 auto;
+  width: 550px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
